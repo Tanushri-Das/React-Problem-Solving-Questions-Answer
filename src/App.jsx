@@ -1,5 +1,6 @@
 import React from "react";
-import ShowCurrentTime from "./Components/ShowCurrentTime/ShowCurrentTime";
+import Parent from "./Components/Parent/Parent";
+// import ShowCurrentTime from "./Components/ShowCurrentTime/ShowCurrentTime";
 // import SumOfTwoNumbers from "./Components/SumOfTwoNumbers/SumOfTwoNumbers";
 // import DisplayData from "./Components/DisplayData/DisplayData";
 // import Event from "./Components/Event/Event";
@@ -14,7 +15,8 @@ const App = () => {
       {/* <Event /> */}
       {/* <SumOfTwoNumbers/> */}
       {/* <DisplayData/> */}
-      <ShowCurrentTime/>
+      {/* <ShowCurrentTime/> */}
+      <Parent/>
     </div>
   );
 };
