@@ -1,5 +1,6 @@
 import React from "react";
-import CreatePaginationComponent from "./Components/CreatePaginationComponent/CreatePaginationComponent";
+import Todo from "./Components/Todo/Todo";
+// import CreatePaginationComponent from "./Components/CreatePaginationComponent/CreatePaginationComponent";
 // import AddDynamicData from "./Components/AddDynamicData/AddDynamicData";
 // import AddStaticData from "./Components/AddStaticData/AddStaticData";
 // import CounterReducer from "./Components/CounterReducer/CounterReducer";
@@ -36,7 +37,8 @@ const App = () => {
       {/* <CounterReducer/> */}
       {/* <AddStaticData/> */}
       {/* <AddDynamicData/> */}
-      <CreatePaginationComponent/>
+      {/* <CreatePaginationComponent/> */}
+      <Todo/>
     </div>
   );
 };
