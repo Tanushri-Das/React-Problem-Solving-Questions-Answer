@@ -1,5 +1,6 @@
 import React from "react";
-import ShowHideData from "./Components/ShowHideData/ShowHideData";
+import Toggle from "./Components/Toggle/Toggle";
+// import ShowHideData from "./Components/ShowHideData/ShowHideData";
 // import ParentComponent from "./Components/ParentComponent/ParentComponent";
 // import Parent from "./Components/Parent/Parent";
 // import ShowCurrentTime from "./Components/ShowCurrentTime/ShowCurrentTime";
@@ -20,7 +21,8 @@ const App = () => {
       {/* <ShowCurrentTime/> */}
       {/* <Parent/> */}
       {/* <ParentComponent/> */}
-      <ShowHideData/>
+      {/* <ShowHideData/> */}
+      <Toggle/>
     </div>
   );
 };
