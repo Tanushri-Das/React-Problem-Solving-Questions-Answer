@@ -1,5 +1,6 @@
 import React from "react";
-import AddStaticData from "./Components/AddStaticData/AddStaticData";
+import AddDynamicData from "./Components/AddDynamicData/AddDynamicData";
+// import AddStaticData from "./Components/AddStaticData/AddStaticData";
 // import CounterReducer from "./Components/CounterReducer/CounterReducer";
 // import ResponsiveGridLayout from "./Components/ResponsiveGridLayout/ResponsiveGridLayout";
 // import ChangeBackgroundColor from "./Components/ChangeBackgroundColor/ChangeBackgroundColor";
@@ -32,7 +33,8 @@ const App = () => {
       {/* <ChangeBackgroundColor/> */}
       {/* <ResponsiveGridLayout/> */}
       {/* <CounterReducer/> */}
-      <AddStaticData/>
+      {/* <AddStaticData/> */}
+      <AddDynamicData/>
     </div>
   );
 };

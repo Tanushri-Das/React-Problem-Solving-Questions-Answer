@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers horizontally */
+  justify-content: center; /* Centers vertically */
+  min-height: 100vh; /* Makes sure content is centered vertically within the viewport */
+  text-align: center;
+}
+.user-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.user-name {
+  list-style: none;
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+.sum-btn-div {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.plus {
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.form {
+  margin-top: 25px;
+  width: 350px;
+  border: 1px solid gray;
+  padding: 20px 30px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  outline: none;
+  font-size: 16px;
+}
+.submit {
+  margin-left: 10px;
+}
