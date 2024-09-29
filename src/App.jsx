@@ -1,5 +1,6 @@
 import React from "react";
-import CounterReducer from "./Components/CounterReducer/CounterReducer";
+import AddStaticData from "./Components/AddStaticData/AddStaticData";
+// import CounterReducer from "./Components/CounterReducer/CounterReducer";
 // import ResponsiveGridLayout from "./Components/ResponsiveGridLayout/ResponsiveGridLayout";
 // import ChangeBackgroundColor from "./Components/ChangeBackgroundColor/ChangeBackgroundColor";
 // import CenterBlockElementHorizontally from "./Components/CenterBlockElementHorizontally/CenterBlockElementHorizontally";
@@ -30,7 +31,8 @@ const App = () => {
       {/* <CenterBlockElementHorizontally/> */}
       {/* <ChangeBackgroundColor/> */}
       {/* <ResponsiveGridLayout/> */}
-      <CounterReducer/>
+      {/* <CounterReducer/> */}
+      <AddStaticData/>
     </div>
   );
 };
