@@ -1,5 +1,6 @@
 import React from "react";
-import CenterBlockElementHorizontally from "./Components/CenterBlockElementHorizontally/CenterBlockElementHorizontally";
+import ChangeBackgroundColor from "./Components/ChangeBackgroundColor/ChangeBackgroundColor";
+// import CenterBlockElementHorizontally from "./Components/CenterBlockElementHorizontally/CenterBlockElementHorizontally";
 // import Toggle from "./Components/Toggle/Toggle";
 // import ShowHideData from "./Components/ShowHideData/ShowHideData";
 // import ParentComponent from "./Components/ParentComponent/ParentComponent";
@@ -24,7 +25,8 @@ const App = () => {
       {/* <ParentComponent/> */}
       {/* <ShowHideData/> */}
       {/* <Toggle/> */}
-      <CenterBlockElementHorizontally/>
+      {/* <CenterBlockElementHorizontally/> */}
+      <ChangeBackgroundColor/>
     </div>
   );
 };
