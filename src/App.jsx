@@ -1,5 +1,6 @@
 import React from "react";
-import AddDynamicData from "./Components/AddDynamicData/AddDynamicData";
+import CreatePaginationComponent from "./Components/CreatePaginationComponent/CreatePaginationComponent";
+// import AddDynamicData from "./Components/AddDynamicData/AddDynamicData";
 // import AddStaticData from "./Components/AddStaticData/AddStaticData";
 // import CounterReducer from "./Components/CounterReducer/CounterReducer";
 // import ResponsiveGridLayout from "./Components/ResponsiveGridLayout/ResponsiveGridLayout";
@@ -34,7 +35,8 @@ const App = () => {
       {/* <ResponsiveGridLayout/> */}
       {/* <CounterReducer/> */}
       {/* <AddStaticData/> */}
-      <AddDynamicData/>
+      {/* <AddDynamicData/> */}
+      <CreatePaginationComponent/>
     </div>
   );
 };

@@ -1,3 +1,5 @@
+// How to add data into useState array in functional component in react ? dynamic name
+
 import React, { useEffect, useState } from "react";
 import './AddDynamicData.css'
 
