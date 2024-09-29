@@ -1,5 +1,6 @@
 import React from "react";
-import Toggle from "./Components/Toggle/Toggle";
+import CenterBlockElementHorizontally from "./Components/CenterBlockElementHorizontally/CenterBlockElementHorizontally";
+// import Toggle from "./Components/Toggle/Toggle";
 // import ShowHideData from "./Components/ShowHideData/ShowHideData";
 // import ParentComponent from "./Components/ParentComponent/ParentComponent";
 // import Parent from "./Components/Parent/Parent";
@@ -22,7 +23,8 @@ const App = () => {
       {/* <Parent/> */}
       {/* <ParentComponent/> */}
       {/* <ShowHideData/> */}
-      <Toggle/>
+      {/* <Toggle/> */}
+      <CenterBlockElementHorizontally/>
     </div>
   );
 };
