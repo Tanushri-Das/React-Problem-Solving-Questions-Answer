@@ -1,0 +1,35 @@
+.container {
+  width: 360px;
+  border: 1px solid gray;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 6px;
+}
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 6px 10px;
+}
+.formInput {
+  margin-bottom: 10px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.increment {
+  background-color: green;
+  padding: 10px 15px;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
