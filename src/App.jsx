@@ -1,14 +1,16 @@
-import React from 'react'
+import React from "react";
+import Event from "./Components/Event/Event";
 // import Counter from './Components/Counter/Counter'
-import Api from './Components/Api/Api'
+// import Api from './Components/Api/Api'
 
 const App = () => {
   return (
     <div>
       {/* <Counter/> */}
-      <Api/>
+      {/* <Api/> */}
+      <Event />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
