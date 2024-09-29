@@ -1,5 +1,6 @@
 import React from "react";
-import ResponsiveGridLayout from "./Components/ResponsiveGridLayout/ResponsiveGridLayout";
+import CounterReducer from "./Components/CounterReducer/CounterReducer";
+// import ResponsiveGridLayout from "./Components/ResponsiveGridLayout/ResponsiveGridLayout";
 // import ChangeBackgroundColor from "./Components/ChangeBackgroundColor/ChangeBackgroundColor";
 // import CenterBlockElementHorizontally from "./Components/CenterBlockElementHorizontally/CenterBlockElementHorizontally";
 // import Toggle from "./Components/Toggle/Toggle";
@@ -28,7 +29,8 @@ const App = () => {
       {/* <Toggle/> */}
       {/* <CenterBlockElementHorizontally/> */}
       {/* <ChangeBackgroundColor/> */}
-      <ResponsiveGridLayout/>
+      {/* <ResponsiveGridLayout/> */}
+      <CounterReducer/>
     </div>
   );
 };
