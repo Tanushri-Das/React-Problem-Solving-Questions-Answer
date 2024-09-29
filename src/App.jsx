@@ -1,5 +1,6 @@
 import React from "react";
-import Weather from "./Components/Weather/Weather";
+import Form from "./Components/Form/Form";
+// import Weather from "./Components/Weather/Weather";
 // import Todo from "./Components/Todo/Todo";
 // import CreatePaginationComponent from "./Components/CreatePaginationComponent/CreatePaginationComponent";
 // import AddDynamicData from "./Components/AddDynamicData/AddDynamicData";
@@ -40,7 +41,8 @@ const App = () => {
       {/* <AddDynamicData/> */}
       {/* <CreatePaginationComponent/> */}
       {/* <Todo/> */}
-      <Weather/>
+      {/* <Weather/> */}
+      <Form/>
     </div>
   );
 };
