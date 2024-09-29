@@ -1,5 +1,6 @@
 import React from "react";
-import Todo from "./Components/Todo/Todo";
+import Weather from "./Components/Weather/Weather";
+// import Todo from "./Components/Todo/Todo";
 // import CreatePaginationComponent from "./Components/CreatePaginationComponent/CreatePaginationComponent";
 // import AddDynamicData from "./Components/AddDynamicData/AddDynamicData";
 // import AddStaticData from "./Components/AddStaticData/AddStaticData";
@@ -38,7 +39,8 @@ const App = () => {
       {/* <AddStaticData/> */}
       {/* <AddDynamicData/> */}
       {/* <CreatePaginationComponent/> */}
-      <Todo/>
+      {/* <Todo/> */}
+      <Weather/>
     </div>
   );
 };
