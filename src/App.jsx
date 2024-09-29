@@ -1,5 +1,6 @@
 import React from "react";
-import ChangeBackgroundColor from "./Components/ChangeBackgroundColor/ChangeBackgroundColor";
+import ResponsiveGridLayout from "./Components/ResponsiveGridLayout/ResponsiveGridLayout";
+// import ChangeBackgroundColor from "./Components/ChangeBackgroundColor/ChangeBackgroundColor";
 // import CenterBlockElementHorizontally from "./Components/CenterBlockElementHorizontally/CenterBlockElementHorizontally";
 // import Toggle from "./Components/Toggle/Toggle";
 // import ShowHideData from "./Components/ShowHideData/ShowHideData";
@@ -26,7 +27,8 @@ const App = () => {
       {/* <ShowHideData/> */}
       {/* <Toggle/> */}
       {/* <CenterBlockElementHorizontally/> */}
-      <ChangeBackgroundColor/>
+      {/* <ChangeBackgroundColor/> */}
+      <ResponsiveGridLayout/>
     </div>
   );
 };
