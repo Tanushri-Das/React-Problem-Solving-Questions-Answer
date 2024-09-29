@@ -1,6 +1,5 @@
 // 8.  How to call parent component method from child component in react ? /How to pass data from child component to parent component ? Parent
 
-
 import React, { useState } from "react";
 import ChildComponent from "../ChildComponent/ChildComponent";
 
