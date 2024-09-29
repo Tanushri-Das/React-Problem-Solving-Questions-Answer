@@ -1,0 +1,29 @@
+.container {
+  width: 300px;
+  border: 1px solid gray;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+.increment {
+  background-color: green;
+  padding: 10px 15px;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.decrement {
+  background-color: red;
+  padding: 10px 15px;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 6px;
+  margin-left: 10px;
+  cursor: pointer;
+}
